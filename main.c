@@ -5,6 +5,7 @@
 
 int main() {
 
+    /* Comment */
     Student students[200];
 
     int n = loadStudents(students, 60);
