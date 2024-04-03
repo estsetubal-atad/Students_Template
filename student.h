@@ -21,16 +21,3 @@ typedef struct student* PtStudent;
  */
 Student studentCreate(char *name, char *number, int grade);
 
-/**
- * @brief Populates array with students.
- * 
- * The function returns how many students were actually populated.
- * This is important if 'howMany' is greater than available students.
- * 
- * Should use the return value to iterate the array afterwards.
- * 
- * @param arr [out] array of students to populate. Must have necessary space.
- * @param howMany [in] number of students to load
- * @return int actually number of populated students.
- */
-int loadStudents(Student arr[], int howMany);
